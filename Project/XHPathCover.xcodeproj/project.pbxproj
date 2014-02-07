@@ -22,6 +22,7 @@
 		ABEFEE3318A5412000C6C221 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEFEE3218A5412000C6C221 /* RootTableViewController.m */; };
 		ABEFEE3818A5438E00C6C221 /* XHWaterDropRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEFEE3718A5438E00C6C221 /* XHWaterDropRefresh.m */; };
 		ABEFEE3B18A543F000C6C221 /* XHPathConver.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEFEE3A18A543F000C6C221 /* XHPathConver.m */; };
+		ABEFEE3E18A5443700C6C221 /* XHSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEFEE3D18A5443700C6C221 /* XHSoundManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		ABEFEE3718A5438E00C6C221 /* XHWaterDropRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHWaterDropRefresh.m; sourceTree = "<group>"; };
 		ABEFEE3918A543F000C6C221 /* XHPathConver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPathConver.h; sourceTree = "<group>"; };
 		ABEFEE3A18A543F000C6C221 /* XHPathConver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPathConver.m; sourceTree = "<group>"; };
+		ABEFEE3C18A5443700C6C221 /* XHSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHSoundManager.h; sourceTree = "<group>"; };
+		ABEFEE3D18A5443700C6C221 /* XHSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHSoundManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +164,8 @@
 			children = (
 				ABEFEE3618A5438E00C6C221 /* XHWaterDropRefresh.h */,
 				ABEFEE3718A5438E00C6C221 /* XHWaterDropRefresh.m */,
+				ABEFEE3C18A5443700C6C221 /* XHSoundManager.h */,
+				ABEFEE3D18A5443700C6C221 /* XHSoundManager.m */,
 				ABEFEE3918A543F000C6C221 /* XHPathConver.h */,
 				ABEFEE3A18A543F000C6C221 /* XHPathConver.m */,
 			);
@@ -265,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABEFEE3318A5412000C6C221 /* RootTableViewController.m in Sources */,
+				ABEFEE3E18A5443700C6C221 /* XHSoundManager.m in Sources */,
 				ABEFEE0918A5400200C6C221 /* AppDelegate.m in Sources */,
 				ABEFEE3818A5438E00C6C221 /* XHWaterDropRefresh.m in Sources */,
 				ABEFEE0518A5400200C6C221 /* main.m in Sources */,
