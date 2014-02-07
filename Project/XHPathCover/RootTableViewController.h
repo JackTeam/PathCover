@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootTableViewController.h
 //  XHPathCover
 //
 //  Created by 曾 宪华 on 14-2-7.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RootTableViewController : UITableViewController
 
 @end

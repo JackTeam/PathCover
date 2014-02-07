@@ -13,15 +13,13 @@
 		ABEFEE0318A5400200C6C221 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABEFEE0118A5400200C6C221 /* InfoPlist.strings */; };
 		ABEFEE0518A5400200C6C221 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEFEE0418A5400200C6C221 /* main.m */; };
 		ABEFEE0918A5400200C6C221 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEFEE0818A5400200C6C221 /* AppDelegate.m */; };
-		ABEFEE0C18A5400200C6C221 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABEFEE0A18A5400200C6C221 /* Main_iPhone.storyboard */; };
-		ABEFEE0F18A5400200C6C221 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABEFEE0D18A5400200C6C221 /* Main_iPad.storyboard */; };
-		ABEFEE1218A5400200C6C221 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEFEE1118A5400200C6C221 /* ViewController.m */; };
 		ABEFEE1418A5400200C6C221 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABEFEE1318A5400200C6C221 /* Images.xcassets */; };
 		ABEFEE1B18A5400200C6C221 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEFEE1A18A5400200C6C221 /* XCTest.framework */; };
 		ABEFEE1C18A5400200C6C221 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEFEDF818A5400200C6C221 /* Foundation.framework */; };
 		ABEFEE1D18A5400200C6C221 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEFEDFC18A5400200C6C221 /* UIKit.framework */; };
 		ABEFEE2518A5400200C6C221 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABEFEE2318A5400200C6C221 /* InfoPlist.strings */; };
 		ABEFEE2718A5400200C6C221 /* XHPathCoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEFEE2618A5400200C6C221 /* XHPathCoverTests.m */; };
+		ABEFEE3318A5412000C6C221 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEFEE3218A5412000C6C221 /* RootTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,16 +43,14 @@
 		ABEFEE0618A5400200C6C221 /* XHPathCover-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XHPathCover-Prefix.pch"; sourceTree = "<group>"; };
 		ABEFEE0718A5400200C6C221 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABEFEE0818A5400200C6C221 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ABEFEE0B18A5400200C6C221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		ABEFEE0E18A5400200C6C221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		ABEFEE1018A5400200C6C221 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ABEFEE1118A5400200C6C221 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ABEFEE1318A5400200C6C221 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ABEFEE1918A5400200C6C221 /* XHPathCoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHPathCoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABEFEE1A18A5400200C6C221 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		ABEFEE2218A5400200C6C221 /* XHPathCoverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XHPathCoverTests-Info.plist"; sourceTree = "<group>"; };
 		ABEFEE2418A5400200C6C221 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ABEFEE2618A5400200C6C221 /* XHPathCoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHPathCoverTests.m; sourceTree = "<group>"; };
+		ABEFEE3118A5412000C6C221 /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		ABEFEE3218A5412000C6C221 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +80,7 @@
 		ABEFEDEC18A5400200C6C221 = {
 			isa = PBXGroup;
 			children = (
+				ABEFEE3018A5409E00C6C221 /* PathConver */,
 				ABEFEDFE18A5400200C6C221 /* XHPathCover */,
 				ABEFEE2018A5400200C6C221 /* XHPathCoverTests */,
 				ABEFEDF718A5400200C6C221 /* Frameworks */,
@@ -116,10 +113,8 @@
 			children = (
 				ABEFEE0718A5400200C6C221 /* AppDelegate.h */,
 				ABEFEE0818A5400200C6C221 /* AppDelegate.m */,
-				ABEFEE0A18A5400200C6C221 /* Main_iPhone.storyboard */,
-				ABEFEE0D18A5400200C6C221 /* Main_iPad.storyboard */,
-				ABEFEE1018A5400200C6C221 /* ViewController.h */,
-				ABEFEE1118A5400200C6C221 /* ViewController.m */,
+				ABEFEE3118A5412000C6C221 /* RootTableViewController.h */,
+				ABEFEE3218A5412000C6C221 /* RootTableViewController.m */,
 				ABEFEE1318A5400200C6C221 /* Images.xcassets */,
 				ABEFEDFF18A5400200C6C221 /* Supporting Files */,
 			);
@@ -153,6 +148,14 @@
 				ABEFEE2318A5400200C6C221 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABEFEE3018A5409E00C6C221 /* PathConver */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PathConver;
+			path = ../PathConver;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABEFEE0F18A5400200C6C221 /* Main_iPad.storyboard in Resources */,
 				ABEFEE1418A5400200C6C221 /* Images.xcassets in Resources */,
-				ABEFEE0C18A5400200C6C221 /* Main_iPhone.storyboard in Resources */,
 				ABEFEE0318A5400200C6C221 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABEFEE1218A5400200C6C221 /* ViewController.m in Sources */,
+				ABEFEE3318A5412000C6C221 /* RootTableViewController.m in Sources */,
 				ABEFEE0918A5400200C6C221 /* AppDelegate.m in Sources */,
 				ABEFEE0518A5400200C6C221 /* main.m in Sources */,
 			);
@@ -284,22 +285,6 @@
 				ABEFEE0218A5400200C6C221 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		ABEFEE0A18A5400200C6C221 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABEFEE0B18A5400200C6C221 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		ABEFEE0D18A5400200C6C221 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABEFEE0E18A5400200C6C221 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		ABEFEE2318A5400200C6C221 /* InfoPlist.strings */ = {
@@ -390,11 +375,13 @@
 		ABEFEE2B18A5400200C6C221 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHPathCover/XHPathCover-Prefix.pch";
 				INFOPLIST_FILE = "XHPathCover/XHPathCover-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -403,11 +390,13 @@
 		ABEFEE2C18A5400200C6C221 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHPathCover/XHPathCover-Prefix.pch";
 				INFOPLIST_FILE = "XHPathCover/XHPathCover-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -474,6 +463,7 @@
 				ABEFEE2C18A5400200C6C221 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABEFEE2D18A5400200C6C221 /* Build configuration list for PBXNativeTarget "XHPathCoverTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +472,7 @@
 				ABEFEE2F18A5400200C6C221 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
