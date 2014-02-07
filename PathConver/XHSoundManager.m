@@ -7,25 +7,36 @@
 //
 
 #import "XHSoundManager.h"
+#import <AudioToolbox/AudioToolbox.h>
+
+@interface XHSoundManager () {
+    SystemSoundID refreshSound;
+}
+
+@end
 
 @implementation XHSoundManager
 
-- (id)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
++ (instancetype)sharedInstance {
+    static XHSoundManager *instance;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        instance = [[XHSoundManager alloc] init];
+    });
+    return instance;
+}
+
+- (id)init {
+    self = [super init];
     if (self) {
-        // Initialization code
+        NSURL *url = [[NSBundle mainBundle] URLForResource:@"pullrefresh" withExtension:@"aif"];
+        AudioServicesCreateSystemSoundID((__bridge CFURLRef)(url) , &refreshSound);
     }
     return self;
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
+- (void)playRefreshSound {
+    AudioServicesPlaySystemSound(refreshSound);
 }
-*/
 
 @end

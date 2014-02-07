@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XHSoundManager : UIView
+@interface XHSoundManager : NSObject
+
++ (instancetype)sharedInstance;
+
+- (void)playRefreshSound;
 
 @end
