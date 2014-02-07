@@ -24,6 +24,7 @@
 		ABEFEE3B18A543F000C6C221 /* XHPathConver.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEFEE3A18A543F000C6C221 /* XHPathConver.m */; };
 		ABEFEE3E18A5443700C6C221 /* XHSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEFEE3D18A5443700C6C221 /* XHSoundManager.m */; };
 		ABEFEE4018A547D900C6C221 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEFEE3F18A547D900C6C221 /* Accelerate.framework */; };
+		ABEFEE4218A5483F00C6C221 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEFEE4118A5483F00C6C221 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		ABEFEE3C18A5443700C6C221 /* XHSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHSoundManager.h; sourceTree = "<group>"; };
 		ABEFEE3D18A5443700C6C221 /* XHSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHSoundManager.m; sourceTree = "<group>"; };
 		ABEFEE3F18A547D900C6C221 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		ABEFEE4118A5483F00C6C221 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABEFEE4218A5483F00C6C221 /* AudioToolbox.framework in Frameworks */,
 				ABEFEE4018A547D900C6C221 /* Accelerate.framework in Frameworks */,
 				ABEFEDFB18A5400200C6C221 /* CoreGraphics.framework in Frameworks */,
 				ABEFEDFD18A5400200C6C221 /* UIKit.framework in Frameworks */,
@@ -112,6 +115,7 @@
 		ABEFEDF718A5400200C6C221 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ABEFEE4118A5483F00C6C221 /* AudioToolbox.framework */,
 				ABEFEE3F18A547D900C6C221 /* Accelerate.framework */,
 				ABEFEDF818A5400200C6C221 /* Foundation.framework */,
 				ABEFEDFA18A5400200C6C221 /* CoreGraphics.framework */,
