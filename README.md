@@ -4,7 +4,7 @@ PathCover
 
 PathCover is pull down refresh and a parallax top view with real time blur effect to any UITableView, inspired by Path for iOS.        
 
-Completely created using UIKit/QuartzCore framework.     
+Completely created using UIKit/QuartzCore/Accelerate framework, AudioToolbox framework to play sound to refreshing.    
 
 Easy to drop into your project.      
 
