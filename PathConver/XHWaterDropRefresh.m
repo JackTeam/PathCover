@@ -53,6 +53,13 @@
     return self;
 }
 
+- (void)dealloc {
+    self.refreshCircleImage = nil;
+    
+    self.shapeLayer = nil;
+    self.lineLayer = nil;
+    self.refreshView = nil;
+}
 
 - (void)_setup {
     self.deformationLength = 0.4;
