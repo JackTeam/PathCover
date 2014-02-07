@@ -30,6 +30,7 @@
 		ABEFEE4F18A54CD300C6C221 /* timetowlight.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEFEE4D18A54CD300C6C221 /* timetowlight.png */; };
 		ABEFEE5018A54CD300C6C221 /* timetowlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEFEE4E18A54CD300C6C221 /* timetowlight@2x.png */; };
 		ABEFEE5218A54DD700C6C221 /* MenuBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEFEE5118A54DD700C6C221 /* MenuBackground@2x.png */; };
+		ABEFEE5718A552FA00C6C221 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEFEE5618A552FA00C6C221 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		ABEFEE4D18A54CD300C6C221 /* timetowlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timetowlight.png; sourceTree = "<group>"; };
 		ABEFEE4E18A54CD300C6C221 /* timetowlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timetowlight@2x.png"; sourceTree = "<group>"; };
 		ABEFEE5118A54DD700C6C221 /* MenuBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuBackground@2x.png"; sourceTree = "<group>"; };
+		ABEFEE5618A552FA00C6C221 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABEFEE5718A552FA00C6C221 /* QuartzCore.framework in Frameworks */,
 				ABEFEE4218A5483F00C6C221 /* AudioToolbox.framework in Frameworks */,
 				ABEFEE4018A547D900C6C221 /* Accelerate.framework in Frameworks */,
 				ABEFEDFB18A5400200C6C221 /* CoreGraphics.framework in Frameworks */,
@@ -124,6 +127,7 @@
 		ABEFEDF718A5400200C6C221 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ABEFEE5618A552FA00C6C221 /* QuartzCore.framework */,
 				ABEFEE4118A5483F00C6C221 /* AudioToolbox.framework */,
 				ABEFEE3F18A547D900C6C221 /* Accelerate.framework */,
 				ABEFEDF818A5400200C6C221 /* Foundation.framework */,
