@@ -372,7 +372,7 @@ NSString *const XHBirthdayKey = @"XHBirthday";
     CGFloat waterDropRefreshHeight = 100;
     CGFloat waterDropRefreshWidth = 20;
     _waterDropRefresh = [[XHWaterDropRefresh alloc] initWithFrame:CGRectMake(33, CGRectGetHeight(self.bounds) - waterDropRefreshHeight, waterDropRefreshWidth, waterDropRefreshHeight)];
-    _waterDropRefresh.refreshCircleImage = [UIImage imageNamed:@"timetowlight"];
+    _waterDropRefresh.refreshCircleImage = [UIImage imageNamed:@"circle"];
     _waterDropRefresh.offsetHeight = 20; // 线条的长度
     [self addSubview:self.waterDropRefresh];
     

@@ -27,8 +27,8 @@
 		ABEFEE4218A5483F00C6C221 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEFEE4118A5483F00C6C221 /* AudioToolbox.framework */; };
 		ABEFEE4A18A54BBC00C6C221 /* pullrefresh.aif in Resources */ = {isa = PBXBuildFile; fileRef = ABEFEE4818A54BBC00C6C221 /* pullrefresh.aif */; };
 		ABEFEE4C18A54BFF00C6C221 /* meicon.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEFEE4B18A54BFF00C6C221 /* meicon.png */; };
-		ABEFEE4F18A54CD300C6C221 /* timetowlight.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEFEE4D18A54CD300C6C221 /* timetowlight.png */; };
-		ABEFEE5018A54CD300C6C221 /* timetowlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEFEE4E18A54CD300C6C221 /* timetowlight@2x.png */; };
+		ABEFEE4F18A54CD300C6C221 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEFEE4D18A54CD300C6C221 /* circle.png */; };
+		ABEFEE5018A54CD300C6C221 /* circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEFEE4E18A54CD300C6C221 /* circle@2x.png */; };
 		ABEFEE5218A54DD700C6C221 /* MenuBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEFEE5118A54DD700C6C221 /* MenuBackground@2x.png */; };
 		ABEFEE5718A552FA00C6C221 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEFEE5618A552FA00C6C221 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
@@ -72,8 +72,8 @@
 		ABEFEE4118A5483F00C6C221 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		ABEFEE4818A54BBC00C6C221 /* pullrefresh.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = pullrefresh.aif; sourceTree = "<group>"; };
 		ABEFEE4B18A54BFF00C6C221 /* meicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meicon.png; sourceTree = "<group>"; };
-		ABEFEE4D18A54CD300C6C221 /* timetowlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timetowlight.png; sourceTree = "<group>"; };
-		ABEFEE4E18A54CD300C6C221 /* timetowlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timetowlight@2x.png"; sourceTree = "<group>"; };
+		ABEFEE4D18A54CD300C6C221 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		ABEFEE4E18A54CD300C6C221 /* circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle@2x.png"; sourceTree = "<group>"; };
 		ABEFEE5118A54DD700C6C221 /* MenuBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuBackground@2x.png"; sourceTree = "<group>"; };
 		ABEFEE5618A552FA00C6C221 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -201,8 +201,8 @@
 			isa = PBXGroup;
 			children = (
 				ABEFEE5118A54DD700C6C221 /* MenuBackground@2x.png */,
-				ABEFEE4D18A54CD300C6C221 /* timetowlight.png */,
-				ABEFEE4E18A54CD300C6C221 /* timetowlight@2x.png */,
+				ABEFEE4D18A54CD300C6C221 /* circle.png */,
+				ABEFEE4E18A54CD300C6C221 /* circle@2x.png */,
 				ABEFEE4B18A54BFF00C6C221 /* meicon.png */,
 				ABEFEE4818A54BBC00C6C221 /* pullrefresh.aif */,
 			);
@@ -289,8 +289,8 @@
 				ABEFEE4A18A54BBC00C6C221 /* pullrefresh.aif in Resources */,
 				ABEFEE5218A54DD700C6C221 /* MenuBackground@2x.png in Resources */,
 				ABEFEE1418A5400200C6C221 /* Images.xcassets in Resources */,
-				ABEFEE5018A54CD300C6C221 /* timetowlight@2x.png in Resources */,
-				ABEFEE4F18A54CD300C6C221 /* timetowlight.png in Resources */,
+				ABEFEE5018A54CD300C6C221 /* circle@2x.png in Resources */,
+				ABEFEE4F18A54CD300C6C221 /* circle.png in Resources */,
 				ABEFEE0318A5400200C6C221 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
