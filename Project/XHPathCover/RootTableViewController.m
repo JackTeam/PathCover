@@ -37,7 +37,7 @@
     _pathCover = [[XHPathCover alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 250)];
     [_pathCover setBackgroundImage:[UIImage imageNamed:@"MenuBackground"]];
     [_pathCover setAvatarImage:[UIImage imageNamed:@"meicon.png"]];
-    [_pathCover setInfo:[NSDictionary dictionaryWithObjectsAndKeys:@"Jack", XHUserNameKey, @"1990-10-19", XHBirthdayKey, nil]];
+    [_pathCover setInfo:[NSDictionary dictionaryWithObjectsAndKeys:@"Jack xhzengAIB", XHUserNameKey, @"1990-10-19", XHBirthdayKey, nil]];
     self.tableView.tableHeaderView = self.pathCover;
     
     __weak RootTableViewController *wself = self;
