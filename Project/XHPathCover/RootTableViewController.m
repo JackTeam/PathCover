@@ -7,8 +7,12 @@
 //
 
 #import "RootTableViewController.h"
+#import "XHPathCover.h"
 
-@interface RootTableViewController ()
+@interface RootTableViewController () {
+    
+}
+@property (nonatomic, strong) XHPathCover *pathCover;
 
 @end
 
@@ -27,12 +31,54 @@
 {
     [super viewDidLoad];
     self.title = @"PathCover";
+    if ([self respondsToSelector:@selector(edgesForExtendedLayout)])
+        self.edgesForExtendedLayout = UIRectEdgeNone;
+    
+    _pathCover = [[XHPathCover alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 250)];
+    [_pathCover setBackgroundImage:[UIImage imageNamed:@"MenuBackground"]];
+    [_pathCover setAvatarImage:[UIImage imageNamed:@"meicon.png"]];
+    [_pathCover setInfo:[NSDictionary dictionaryWithObjectsAndKeys:@"Jack", XHUserNameKey, @"1990-10-19", XHBirthdayKey, nil]];
+    self.tableView.tableHeaderView = self.pathCover;
+    
+    __weak RootTableViewController *wself = self;
+    [_pathCover setHandleRefreshEvent:^{
+        [wself _refreshing];
+    }];
+}
+
+- (void)_refreshing {
+    // refresh your data sources
+    
+    __weak RootTableViewController *wself = self;
+    double delayInSeconds = 4.0;
+    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+        [wself.pathCover stopRefresh];
+    });
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark- scroll delegate
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    [_pathCover scrollViewDidScroll:scrollView];
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
+    [_pathCover scrollViewDidEndDecelerating:scrollView];
+}
+
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
+    [_pathCover scrollViewDidEndDragging:scrollView willDecelerate:decelerate];
+}
+
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
+    [_pathCover scrollViewWillBeginDragging:scrollView];
 }
 
 #pragma mark - Table view data source

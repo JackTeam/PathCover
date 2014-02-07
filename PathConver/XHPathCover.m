@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 曾宪华 开发团队(http://iyilunba.com ) 本人QQ:543413507 本人QQ群（142557668）. All rights reserved.
 //
 
-#import "XHPathConver.h"
+#import "XHPathCover.h"
 #import "XHWaterDropRefresh.h"
 
 NSString *const XHUserNameKey = @"XHUserName";
@@ -159,7 +159,7 @@ NSString *const XHBirthdayKey = @"XHBirthday";
 
 @end
 
-@interface XHPathConver () {
+@interface XHPathCover () {
     BOOL normal, paste, hasStop;
     BOOL isrefreshed;
 }
@@ -174,7 +174,7 @@ NSString *const XHBirthdayKey = @"XHBirthday";
 
 @end
 
-@implementation XHPathConver
+@implementation XHPathCover
 
 #pragma mark - Publish Api
 
@@ -225,6 +225,23 @@ NSString *const XHBirthdayKey = @"XHBirthday";
     if (birthday) {
         self.birthdayLabel.text = birthday;
     }
+}
+
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
+    self.touching = YES;
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    self.offsetY = scrollView.contentOffset.y;
+}
+
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
+    if(decelerate == NO) {
+        self.touching = NO;
+    }
+}
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
+    self.touching = NO;
 }
 
 #pragma mark - Propertys
@@ -337,7 +354,7 @@ NSString *const XHBirthdayKey = @"XHBirthday";
     self.parallaxHeight = 170;
     self.isLightEffect = YES;
     self.lightEffectPadding = 80;
-    self.lightEffectAlpha = 1.15;
+    self.lightEffectAlpha = 1.2;
     
     _bannerView = [[UIView alloc] initWithFrame:self.bounds];
     _bannerView.clipsToBounds = YES;
@@ -355,7 +372,7 @@ NSString *const XHBirthdayKey = @"XHBirthday";
     CGFloat waterDropRefreshHeight = 100;
     CGFloat waterDropRefreshWidth = 20;
     _waterDropRefresh = [[XHWaterDropRefresh alloc] initWithFrame:CGRectMake(33, CGRectGetHeight(self.bounds) - waterDropRefreshHeight, waterDropRefreshWidth, waterDropRefreshHeight)];
-    _waterDropRefresh.refreshCircleImage = [UIImage imageNamed:@"first_timetowlight"];
+    _waterDropRefresh.refreshCircleImage = [UIImage imageNamed:@"timetowlight"];
     _waterDropRefresh.offsetHeight = 20; // 线条的长度
     [self addSubview:self.waterDropRefresh];
     
@@ -410,7 +427,7 @@ NSString *const XHBirthdayKey = @"XHBirthday";
 }
 
 - (void)initWaterView {
-    __weak XHPathConver *wself =self;
+    __weak XHPathCover *wself =self;
     [_waterDropRefresh setHandleRefreshEvent:^{
         [wself setIsRefreshed:YES];
         if(wself.handleRefreshEvent) {

@@ -12,7 +12,7 @@
 extern NSString *const XHUserNameKey;
 extern NSString *const XHBirthdayKey;
 
-@interface XHPathConver : UIView
+@interface XHPathCover : UIView
 
 // parallax background
 @property (nonatomic, strong) UIImageView *bannerImageView;
@@ -53,4 +53,8 @@ extern NSString *const XHBirthdayKey;
 // set info, Example : NSDictionary *info = [NSDictionary dictionaryWithObjectsAndKeys:@"Jack", @"userName", @"1990-10-19", @"birthday", nil];
 - (void)setInfo:(NSDictionary *)info;
 
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView;
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView;
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate;
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView;
 @end
