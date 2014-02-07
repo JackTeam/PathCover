@@ -1,3 +1,4 @@
+![image](https://github.com/JackTeam/PathCover/raw/master/Screenshots/PathCover.gif)
 PathCover
 =========
 
@@ -12,6 +13,14 @@ You can add this feature to your own project, `PathCover` is easy-to-use.
 ## Requirements ##
 
 PathCover requires Xcode 5, targeting either iOS 5.0 and above, ARC-enabled.      
+
+english:   [CocosPods](http://cocosPods.org) is the recommended methods of installation XHPathCover, just add the following line to `Profile`:
+
+## Profile
+
+```
+pod 'XHPathCover'
+```
 
 ## How to use ##
 ```objc
