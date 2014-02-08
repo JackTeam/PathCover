@@ -19,7 +19,7 @@ english:   [CocosPods](http://cocosPods.org) is the recommended methods of insta
 ## Profile
 
 ```
-pod 'XHPathCover'
+pod 'XHPathCover', '~> 0.1.0'
 ```
 
 ## How to use ##
