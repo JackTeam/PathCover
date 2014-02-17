@@ -14,9 +14,9 @@ You can add this feature to your own project, `PathCover` is easy-to-use.
 
 PathCover requires Xcode 5, targeting either iOS 5.0 and above, ARC-enabled.      
 
-english:   [CocosPods](http://cocosPods.org) is the recommended methods of installation XHPathCover, just add the following line to `Profile`:
-
 ## Profile
+
+[CocosPods](http://cocosPods.org) is the recommended methods of installation XHPathCover, just add the following line to `Profile`:
 
 ```
 pod 'XHPathCover', '~> 0.1.0'
