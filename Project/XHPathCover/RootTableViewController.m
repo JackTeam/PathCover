@@ -31,8 +31,6 @@
 {
     [super viewDidLoad];
     self.title = @"PathCover";
-    if ([self respondsToSelector:@selector(edgesForExtendedLayout)])
-        self.edgesForExtendedLayout = UIRectEdgeNone;
     
     _pathCover = [[XHPathCover alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 250)];
     [_pathCover setBackgroundImage:[UIImage imageNamed:@"MenuBackground"]];

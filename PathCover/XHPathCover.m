@@ -264,6 +264,11 @@ NSString *const XHBirthdayKey = @"XHBirthday";
 }
 
 - (void)setOffsetY:(CGFloat)y {
+    CGFloat fixAdaptorPadding = 0;
+    if ([[[UIDevice currentDevice] systemVersion] integerValue] >= 7.0) {
+        fixAdaptorPadding = 64;
+    }
+    y += fixAdaptorPadding;
     _offsetY = y;
     CGRect frame = _showView.frame;
     if(y < 0) {
