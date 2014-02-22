@@ -1,6 +1,4 @@
-PathCover parallax effect
 ![image](https://github.com/JackTeam/PathCover/raw/master/Screenshots/PathCover.gif)
-PathCover Zooming effect
 ![image](https://github.com/JackTeam/PathCover/raw/master/Screenshots/PathCoverZooming.gif)
 PathCover
 =========
