@@ -31,6 +31,7 @@ extern NSString *const XHBirthdayKey;
 // parallax background origin Y for parallaxHeight
 @property (nonatomic, assign) CGFloat parallaxHeight; // default is 170， this height was not self heigth.
 
+@property (nonatomic, assign) BOOL isZoomingEffect; // default is NO， if isZoomingEffect is YES, will be dissmiss parallax effect
 @property (nonatomic, assign) BOOL isLightEffect; // default is YES
 @property (nonatomic, assign) CGFloat lightEffectPadding; // default is 80
 @property (nonatomic, assign) CGFloat lightEffectAlpha; // default is 1.12 (between 1 - 2)

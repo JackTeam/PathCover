@@ -309,6 +309,12 @@ NSString *const XHBirthdayKey = @"XHBirthday";
         CGPoint center =  _bannerImageView.center;
         center.y = bannerSuper.frame.size.height / 2;
         _bannerImageView.center = center;
+        
+        if (self.isZoomingEffect) {
+            _bannerImageView.center = center;
+            CGFloat scale = fabsf(y) / self.parallaxHeight;
+            _bannerImageView.transform = CGAffineTransformMakeScale(1+scale, 1+scale);
+        }
     } else {
         if(bframe.origin.y != 0) {
             bframe.origin.y = 0;
@@ -359,7 +365,7 @@ NSString *const XHBirthdayKey = @"XHBirthday";
     self.parallaxHeight = 170;
     self.isLightEffect = YES;
     self.lightEffectPadding = 80;
-    self.lightEffectAlpha = 1.2;
+    self.lightEffectAlpha = 1.15;
     
     _bannerView = [[UIView alloc] initWithFrame:self.bounds];
     _bannerView.clipsToBounds = YES;
