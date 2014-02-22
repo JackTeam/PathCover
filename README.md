@@ -1,8 +1,11 @@
+PathCover parallax effect
 ![image](https://github.com/JackTeam/PathCover/raw/master/Screenshots/PathCover.gif)
+PathCover Zooming effect
+![image](https://github.com/JackTeam/PathCover/raw/master/Screenshots/PathCoverZooming.gif)
 PathCover
 =========
 
-PathCover is pull down refresh and a parallax top view with real time blur effect to any UITableView, inspired by Path for iOS.        
+PathCover is pull down refresh and a parallax/zooming top view with real time blur effect to any UITableView, inspired by Path for iOS.        
 
 Completely created using UIKit/QuartzCore/Accelerate framework, AudioToolbox framework to play sound to refreshing.    
 
@@ -24,6 +27,8 @@ pod 'XHPathCover', '~> 0.1.0'
 
 ## How to use ##
 ```objc
+zooimg effect property to user, but if you user zooimg effect, will be dissmiss parallax effect.      
+
 #import "XHPathCover.h"    
 
 @property (nonatomic, strong) XHPathCover *pathCover;       
