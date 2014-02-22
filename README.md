@@ -1,5 +1,5 @@
-![image](https://github.com/JackTeam/PathCover/raw/master/Screenshots/PathCover.gif)
-![image](https://github.com/JackTeam/PathCover/raw/master/Screenshots/PathCoverZooming.gif)
+parallax![image](https://github.com/JackTeam/PathCover/raw/master/Screenshots/PathCover.gif)
+zooming![image](https://github.com/JackTeam/PathCover/raw/master/Screenshots/PathCoverZooming.gif)
 PathCover
 =========
 
