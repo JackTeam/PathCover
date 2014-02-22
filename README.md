@@ -1,6 +1,8 @@
-parallax![image](https://github.com/JackTeam/PathCover/raw/master/Screenshots/PathCover.gif)
-zooming![image](https://github.com/JackTeam/PathCover/raw/master/Screenshots/PathCoverZooming.gif)
-PathCover
+parallax
+![image](https://github.com/JackTeam/PathCover/raw/master/Screenshots/PathCover.gif)
+zooming
+![image](https://github.com/JackTeam/PathCover/raw/master/Screenshots/PathCoverZooming.gif)
+
 =========
 
 PathCover is pull down refresh and a parallax/zooming top view with real time blur effect to any UITableView, inspired by Path for iOS.        
