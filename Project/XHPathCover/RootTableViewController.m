@@ -9,6 +9,8 @@
 #import "RootTableViewController.h"
 #import "XHPathCover.h"
 
+#import "HUAJIENewsCell.h"
+
 @interface RootTableViewController () {
     
 }
@@ -36,6 +38,7 @@
     [_pathCover setBackgroundImage:[UIImage imageNamed:@"MenuBackground"]];
     [_pathCover setAvatarImage:[UIImage imageNamed:@"meicon.png"]];
     [_pathCover setInfo:[NSDictionary dictionaryWithObjectsAndKeys:@"Jack xhzengAIB", XHUserNameKey, @"1990-10-19", XHBirthdayKey, nil]];
+    _pathCover.isZoomingEffect = YES;
     self.tableView.tableHeaderView = self.pathCover;
     
     __weak RootTableViewController *wself = self;
@@ -96,15 +99,19 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    HUAJIENewsCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell = [[HUAJIENewsCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
     // Configure the cell...
-    cell.textLabel.text = @"PathCover Cell";
+//    cell.textLabel.text = @"PathCover Cell";
     
     return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 100;
 }
 
 /*
