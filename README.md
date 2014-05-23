@@ -20,7 +20,7 @@ PathCover requires Xcode 5, targeting either iOS 5.0 and above, ARC-enabled.
 [CocosPods](http://cocosPods.org) is the recommended methods of installation PathCover, just add the following line to `Profile`:
 
 ```
-pod 'PathCover', '~> 0.1.2'
+pod 'PathCover', '~> 0.1.3'
 ```
 
 ## How to use ##
