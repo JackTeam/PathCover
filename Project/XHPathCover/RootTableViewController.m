@@ -45,6 +45,10 @@
     [_pathCover setHandleRefreshEvent:^{
         [wself _refreshing];
     }];
+    
+    [_pathCover setHandleTapBackgroundImageEvent:^{
+        [wself.pathCover setBackgroundImage:[UIImage imageNamed:@"AlbumHeaderBackgrounImage"]];
+    }];
 }
 
 - (void)_refreshing {

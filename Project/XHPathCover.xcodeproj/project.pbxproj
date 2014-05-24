@@ -17,6 +17,7 @@
 		AB4D2F9718A59955002130AC /* XHPathCover.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4D2F8D18A59955002130AC /* XHPathCover.m */; };
 		AB4D2F9818A59955002130AC /* XHSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4D2F8F18A59955002130AC /* XHSoundManager.m */; };
 		AB4D2F9918A59955002130AC /* XHWaterDropRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4D2F9118A59955002130AC /* XHWaterDropRefresh.m */; };
+		ABB4940819302D98000A2680 /* AlbumHeaderBackgrounImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB4940719302D98000A2680 /* AlbumHeaderBackgrounImage@2x.png */; };
 		ABEFEDF918A5400200C6C221 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEFEDF818A5400200C6C221 /* Foundation.framework */; };
 		ABEFEDFB18A5400200C6C221 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEFEDFA18A5400200C6C221 /* CoreGraphics.framework */; };
 		ABEFEDFD18A5400200C6C221 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEFEDFC18A5400200C6C221 /* UIKit.framework */; };
@@ -60,6 +61,7 @@
 		AB4D2F8F18A59955002130AC /* XHSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHSoundManager.m; sourceTree = "<group>"; };
 		AB4D2F9018A59955002130AC /* XHWaterDropRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHWaterDropRefresh.h; sourceTree = "<group>"; };
 		AB4D2F9118A59955002130AC /* XHWaterDropRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHWaterDropRefresh.m; sourceTree = "<group>"; };
+		ABB4940719302D98000A2680 /* AlbumHeaderBackgrounImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlbumHeaderBackgrounImage@2x.png"; sourceTree = "<group>"; };
 		ABEFEDF518A5400200C6C221 /* XHPathCover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHPathCover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABEFEDF818A5400200C6C221 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ABEFEDFA18A5400200C6C221 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -189,6 +191,7 @@
 		ABEFEDFF18A5400200C6C221 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ABB4940719302D98000A2680 /* AlbumHeaderBackgrounImage@2x.png */,
 				AB39B5A318D7D81E00CD6E1D /* 列表图片@2x.jpg */,
 				ABEFEE0018A5400200C6C221 /* XHPathCover-Info.plist */,
 				ABEFEE0118A5400200C6C221 /* InfoPlist.strings */,
@@ -299,6 +302,7 @@
 				AB4D2F9218A59955002130AC /* circle.png in Resources */,
 				AB4D2F9518A59955002130AC /* MenuBackground@2x.png in Resources */,
 				ABEFEE1418A5400200C6C221 /* Images.xcassets in Resources */,
+				ABB4940819302D98000A2680 /* AlbumHeaderBackgrounImage@2x.png in Resources */,
 				ABEFEE0318A5400200C6C221 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
